@@ -22,3 +22,12 @@ FHIRPatientDemoApi/
 ├─ Program.cs                   # Startup / dependency injection
 └─ FHIRPatientDemoApi.csproj
 
+Tech Stack
+.NET 8.0 (ASP.NET Core Web API)
+HttpClient for REST calls
+System.Text.Json for JSON parsing
+Swagger / OpenAPI for testing endpoints
+
+Uses public HAPI FHIR server, so data may change or reset.
+For reliable demos, consider running a local HAPI FHIR server or using Azure API for FHIR.
+No external libraries required.
